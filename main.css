@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-#index {
-  margin-top: 50%;
-}
-
 /* NAVBAR */
 
 .navbar {
@@ -87,10 +83,56 @@
   display: block;
 }
 
-/* TITTLE */
+/* TEXT */
 
 #tittle {
-      font-size: 150px;
-      text-align: center;
-      font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+  font-size: 100px;
+  text-align: center;
+  font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+  margin: 10% 0%;
+}
+
+#text {
+  font-size: 20px;
+  font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 5% 15%;
+  text-indent: 5%;
+  line-height: 1.5;
+}
+
+#refs {
+  font-size: 10px;
+  font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 10%;
+}
+
+/* BLOCOS */
+
+.info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% 0%;
+}
+
+.image {
+  text-align: center;
+}
+
+.image, .text {
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .image, .text {
+    width: 100%;
+  }
 }
