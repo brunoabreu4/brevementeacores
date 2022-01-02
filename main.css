@@ -4,9 +4,9 @@
   margin: 0;
 }
 
-#wrapper {
-  width: auto;
-  margin: auto;
+.wrapper {
+  text-align: center;
+  margin-top: 40vh;
 }
 
 /* NAVBAR */
@@ -23,7 +23,7 @@
 
 .navbar a {
   float: left;
-  font-size: 25px;
+  font-size: 14px;
   color: black;
   text-align: center;
   padding: 14px 16px;
