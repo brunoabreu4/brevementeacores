@@ -112,6 +112,16 @@
   line-height: 1.5;
 }
 
+#text2 {
+  font-size: 20px;
+  font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 5% 0%;
+  text-indent: 5%;
+  line-height: 1.5;
+}
+
 #refs {
   font-size: 10px;
   font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
@@ -139,6 +149,10 @@
 
 .image, .text {
   width: 50%;
+}
+
+.text2 {
+  width: 70%;
 }
 
 @media screen and (max-width: 1000px) {
